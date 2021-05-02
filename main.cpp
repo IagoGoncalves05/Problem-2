@@ -2,6 +2,7 @@
 #include "Person.h"
 #include "Student.h"
 #include "Employee.h"
+#include "Faculty.h"
 using namespace std;
 
 int main()
@@ -18,4 +19,9 @@ int main()
 
     Employee e("Iago");
     cout << e.toString() << endl;
+    
+    cout << endl;
+
+    Faculty f("Iago", "9am-9pm", "Professor");
+    cout << f.toString() << endl;
 }
