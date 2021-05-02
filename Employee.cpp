@@ -2,6 +2,7 @@
 #include <iostream>
 #define quote(x) #x
 
+Employee::Employee() {}
 Employee::Employee(string name) {
 	setName(name);
 }

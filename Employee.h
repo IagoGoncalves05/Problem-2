@@ -6,6 +6,7 @@
 
 class Employee: public Person {
 public:
+	Employee();
 	Employee(string name);
 	Employee(string name, double salary, string office, MyDate date);
 	void setSalary(double salary);
