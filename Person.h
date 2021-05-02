@@ -5,9 +5,9 @@ using namespace std;
 
 class Person
 {
-public: 
-  Person();
-	Person(string name, string address, string phoneNumber, string email);
+public:
+	Person();
+	Person(string name);
 	void setName(string name);
 	void setAddress(string address);
 	void setPhoneNumber(string phoneNumber);

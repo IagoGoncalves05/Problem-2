@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Person.h"
 #include "Student.h"
 #include "Employee.h"
@@ -8,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    Person p("Steve", "Brazil", "(51)33246057", "steve@email.com");
+    Person p("Iago");
     cout << p.toString() << endl;
 
     cout << endl;
@@ -18,12 +19,12 @@ int main()
 
     cout << endl;
 
-    Employee e("Erwin");
+    Employee e("Iago");
     cout << e.toString() << endl;
-    
+
     cout << endl;
 
-    Faculty f("Jamie", "9am-9pm", "Professor");
+    Faculty f("Iago", "9am-9pm", "Professor");
     cout << f.toString() << endl;
 
     cout << endl; 
@@ -31,3 +32,4 @@ int main()
     Staff st("Cyra", "Monitor");
     cout << st.toString() << endl;
 }
+

@@ -6,11 +6,8 @@ Person::Person() {
 	name = address = phoneNumber = email = "";
 }
 
-Person::Person(string name, string address, string phoneNumber, string email) {
+Person::Person(string name) {
 	this->name = name;
-  this->address = address;
-  this->phoneNumber = phoneNumber;
-  this->email = email;
 }
 
 void Person::setName(string name) {
@@ -45,7 +42,7 @@ string Person::getEmail() const {
 	return email;
 }
 
-string Person::toString() const{
-  typeid(Person).name();
+string Person::toString() const {
+	typeid(Person).name();
 	return "Name: " + getName() + "\nClass: " + quote(Person);
-}	
+}
