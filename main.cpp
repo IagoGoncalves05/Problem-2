@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    Person p("Iago", "Brazil", "(51)33246057", "iago@email.com");
+    Person p("Steve", "Brazil", "(51)33246057", "steve@email.com");
     cout << p.toString() << endl;
 
     cout << endl;
@@ -17,11 +17,11 @@ int main()
 
     cout << endl;
 
-    Employee e("Iago");
+    Employee e("Erwin");
     cout << e.toString() << endl;
     
     cout << endl;
 
-    Faculty f("Iago", "9am-9pm", "Professor");
+    Faculty f("Jamie", "9am-9pm", "Professor");
     cout << f.toString() << endl;
 }
